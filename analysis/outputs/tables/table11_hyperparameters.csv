@@ -1,0 +1,8 @@
+Model Architecture,Hyperparameter grid,Selected hyperparameters,Inner 10-fold CV ROC-AUC
+Lasso Logistic Regression (L1),"{""model__C"": ""[1.00000000e-02 3.16227766e-02 1.00000000e-01 3.16227766e-01\n 1.00000000e+00 3.16227766e+00 1.00000000e+01 3.16227766e+01\n 1.00000000e+02]""}","{""model__C"": 0.31622776601683794}",1.0000
+Elastic-Net Logistic Regression,"{""model__C"": ""[1.e-02 1.e-01 1.e+00 1.e+01 1.e+02]"", ""model__l1_ratio"": [0.2, 0.5, 0.8]}","{""model__C"": 0.1, ""model__l1_ratio"": 0.2}",0.9995
+k-Nearest Neighbours (k-NN),"{""model__n_neighbors"": [3, 5, 7, 9, 11, 15]}","{""model__n_neighbors"": 9}",0.9917
+SVM (RBF Kernel),"{""model__C"": [0.1, 1, 10, 100], ""model__gamma"": [""scale"", 0.01, 0.1]}","{""model__C"": 0.1, ""model__gamma"": ""scale""}",1.0000
+Random Forest,"{""model__max_features"": [""sqrt"", 0.5], ""model__min_samples_leaf"": [1, 3, 5]}","{""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1}",1.0000
+Gradient Boosting (GBM),"{""model__n_estimators"": [100, 300], ""model__learning_rate"": [0.05, 0.1], ""model__max_depth"": [2, 3]}","{""model__learning_rate"": 0.05, ""model__max_depth"": 2, ""model__n_estimators"": 100}",1.0000
+Random Forest + SMOTE-NC,"{""model__max_features"": [""sqrt"", 0.5], ""model__min_samples_leaf"": [1, 3]}","{""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1}",1.0000

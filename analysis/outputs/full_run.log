@@ -1,0 +1,162 @@
+{'n_train': 280, 'n_test': 120, 'train_ckd': 175, 'test_ckd': 75, 'train_pct_ckd': 62.5, 'test_pct_ckd': 62.5}
+[nested CV] Lasso Logistic Regression (L1): 88s
+[nested CV] Elastic-Net Logistic Regression: 198s
+[nested CV] k-Nearest Neighbours (k-NN): 24s
+[nested CV] SVM (RBF Kernel): 42s
+[nested CV] Random Forest: 708s
+[nested CV] Gradient Boosting (GBM): 471s
+[nested CV] Random Forest + SMOTE-NC: 829s
+[table] table12_cv_uncertainty: (7, 18)
+C:\Users\CHIBYKE\Documents\online books\CKD paper\analysis\02_models.py:199: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  bp = ax.boxplot(data, vert=False, patch_artist=True, widths=0.55, showfliers=True,
+C:\Users\CHIBYKE\Documents\online books\CKD paper\analysis\02_models.py:199: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  bp = ax.boxplot(data, vert=False, patch_artist=True, widths=0.55, showfliers=True,
+C:\Users\CHIBYKE\Documents\online books\CKD paper\analysis\02_models.py:199: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  bp = ax.boxplot(data, vert=False, patch_artist=True, widths=0.55, showfliers=True,
+[holdout] Lasso Logistic Regression (L1): acc=0.9917 auc=1.0000 brier=0.0182 best={'model__C': np.float64(0.31622776601683794)}
+[holdout] Elastic-Net Logistic Regression: acc=0.9833 auc=1.0000 brier=0.0223 best={'model__C': np.float64(0.1), 'model__l1_ratio': 0.2}
+[holdout] k-Nearest Neighbours (k-NN): acc=0.9250 auc=1.0000 brier=0.0471 best={'model__n_neighbors': 9}
+[holdout] SVM (RBF Kernel): acc=0.9917 auc=1.0000 brier=0.0060 best={'model__C': 0.1, 'model__gamma': 'scale'}
+[holdout] Random Forest: acc=0.9917 auc=1.0000 brier=0.0082 best={'model__max_features': 'sqrt', 'model__min_samples_leaf': 1}
+[holdout] Gradient Boosting (GBM): acc=0.9917 auc=0.9996 brier=0.0097 best={'model__learning_rate': 0.05, 'model__max_depth': 2, 'model__n_estimators': 100}
+[holdout] Random Forest + SMOTE-NC: acc=0.9917 auc=1.0000 brier=0.0083 best={'model__max_features': 'sqrt', 'model__min_samples_leaf': 1}
+[table] table11_hyperparameters: (7, 4)
+[table] table13_holdout_metrics: (7, 17)
+[table] table14_delong: (9, 7)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\discrete\discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\discrete\discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\discrete\discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\discrete\discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\discrete\discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\base\optimizer.py:536: PerfectSeparationWarning: Perfect separation or prediction detected, parameter may not be identified
+  callback(newparams)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\statsmodels\discrete\discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+[table] table15_brier_calibration: (7, 4)
+[table] table09_lasso_coefficients_or: (24, 7)
+[table] table09b_elasticnet_coefficients: (24, 3)
+[table] table10_unregularised_glm: (25, 6)
+[table] table16_feature_importance: (24, 6)
+[table] table17_threshold_analysis: (38, 9)
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\sklearn\impute\_iterative.py:867: ConvergenceWarning: [IterativeImputer] Early stopping criterion not reached.
+  warnings.warn(
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\sklearn\impute\_iterative.py:867: ConvergenceWarning: [IterativeImputer] Early stopping criterion not reached.
+  warnings.warn(
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\sklearn\impute\_iterative.py:867: ConvergenceWarning: [IterativeImputer] Early stopping criterion not reached.
+  warnings.warn(
+C:\Users\CHIBYKE\AppData\Local\Programs\Python\Python315\Lib\site-packages\sklearn\impute\_iterative.py:867: ConvergenceWarning: [IterativeImputer] Early stopping criterion not reached.
+  warnings.warn(
+[table] table18_imputation_sensitivity: (6, 7)
+{
+  "n_train": 280,
+  "n_test": 120,
+  "train_ckd": 175,
+  "test_ckd": 75,
+  "train_pct_ckd": 62.5,
+  "test_pct_ckd": 62.5,
+  "lasso_C": 0.31622776601683794,
+  "lasso_nonzero": 11,
+  "glm_converged": "False",
+  "glm_warnings": [
+    "Perfect separation or prediction detected, parameter may not be identified",
+    "Perfect separation or prediction detected, parameter may not be identified",
+    "Perfect separation or prediction detected, parameter may not be identified",
+    "Perfect separation or prediction detected, parameter may not be identified",
+    "Perfect separation or prediction detected, parameter may not be identified"
+  ],
+  "glm_max_se": 72864184.20260385,
+  "glm_min_p": 0.9999847723589748,
+  "glm_train_auc": 1.0,
+  "runtime_s": 2687.350780248642
+}
+DONE in 2687s
+exit=0

@@ -1,0 +1,25 @@
+Variable,Code,Missing (n),Missing (%),Missing CKD (%),Missing non-CKD (%)
+Red blood cells (abnormal),rbc,152,38.0,57.199999999999996,6.0
+Red blood cell count (millions/cmm),rc,131,32.75,49.6,4.666666666666667
+White blood cell count (cells/cumm),wc,106,26.5,39.6,4.666666666666667
+Potassium (mEq/L),pot,88,22.0,33.2,3.3333333333333335
+Sodium (mEq/L),sod,87,21.75,32.800000000000004,3.3333333333333335
+Packed cell volume (%),pcv,71,17.75,26.8,2.666666666666667
+Pus cell (abnormal),pc,65,16.25,22.400000000000002,6.0
+Haemoglobin (g/dL),hemo,52,13.0,18.4,4.0
+Sugar (0-5),su,49,12.25,17.599999999999998,3.3333333333333335
+Specific gravity,sg,47,11.75,16.8,3.3333333333333335
+Albumin (0-5),al,46,11.5,16.400000000000002,3.3333333333333335
+Blood glucose random (mg/dL),bgr,44,11.0,15.2,4.0
+Blood urea (mg/dL),bu,19,4.75,5.2,4.0
+Serum creatinine (mg/dL),sc,17,4.25,4.8,3.3333333333333335
+Blood pressure (mm Hg),bp,12,3.0,4.0,1.3333333333333335
+Age (years),age,9,2.25,3.2,0.6666666666666667
+Pus cell clumps (present),pcc,4,1.0,0.0,2.666666666666667
+Bacteria (present),ba,4,1.0,0.0,2.666666666666667
+Hypertension (yes),htn,2,0.5,0.0,1.3333333333333335
+Diabetes mellitus (yes),dm,2,0.5,0.0,1.3333333333333335
+Coronary artery disease (yes),cad,2,0.5,0.0,1.3333333333333335
+Appetite (poor),appet,1,0.25,0.0,0.6666666666666667
+Pedal oedema (yes),pe,1,0.25,0.0,0.6666666666666667
+Anaemia (yes),ane,1,0.25,0.0,0.6666666666666667

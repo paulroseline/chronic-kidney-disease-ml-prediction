@@ -1,0 +1,16 @@
+Feature 1,Feature 2,Pearson r,n pairs
+Haemoglobin (g/dL),Packed cell volume (%),0.8953817669928064,327
+Haemoglobin (g/dL),Red blood cell count (millions/cmm),0.7988802467445641,265
+Packed cell volume (%),Red blood cell count (millions/cmm),0.7916252713729909,265
+Blood glucose random (mg/dL),Sugar (0-5),0.7178267668666239,313
+Serum creatinine (mg/dL),Sodium (mEq/L),-0.6901578920579903,310
+Red blood cell count (millions/cmm),Hypertension (yes),-0.6477667944925753,267
+Haemoglobin (g/dL),Albumin (0-5),-0.6346317780901191,313
+Packed cell volume (%),Hypertension (yes),-0.6328885854677672,327
+Haemoglobin (g/dL),Hypertension (yes),-0.6188671002043061,346
+Packed cell volume (%),Albumin (0-5),-0.6118911251338762,302
+Blood urea (mg/dL),Haemoglobin (g/dL),-0.6103602784857801,335
+Blood urea (mg/dL),Packed cell volume (%),-0.6076213553320018,318
+Hypertension (yes),Diabetes mellitus (yes),0.6070337421039279,398
+Packed cell volume (%),Specific gravity,0.6035599000086835,301
+Haemoglobin (g/dL),Specific gravity,0.602582277611142,313

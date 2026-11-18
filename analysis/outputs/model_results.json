@@ -1,0 +1,22 @@
+{
+  "n_train": 280,
+  "n_test": 120,
+  "train_ckd": 175,
+  "test_ckd": 75,
+  "train_pct_ckd": 62.5,
+  "test_pct_ckd": 62.5,
+  "lasso_C": 0.31622776601683794,
+  "lasso_nonzero": 11,
+  "glm_converged": "False",
+  "glm_warnings": [
+    "Perfect separation or prediction detected, parameter may not be identified",
+    "Perfect separation or prediction detected, parameter may not be identified",
+    "Perfect separation or prediction detected, parameter may not be identified",
+    "Perfect separation or prediction detected, parameter may not be identified",
+    "Perfect separation or prediction detected, parameter may not be identified"
+  ],
+  "glm_max_se": 72864184.20260385,
+  "glm_min_p": 0.9999847723589748,
+  "glm_train_auc": 1.0,
+  "runtime_s": 2687.350780248642
+}

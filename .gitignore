@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+analysis/outputs_quick/
+CKD_article.docx
+CKD_article.md

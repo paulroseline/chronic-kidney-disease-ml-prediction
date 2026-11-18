@@ -1,0 +1,98 @@
+{
+  "n": 400,
+  "n_ckd": 250,
+  "n_notckd": 150,
+  "pct_ckd": 62.5,
+  "pct_notckd": 37.5,
+  "complete_cases": 158,
+  "rows_any_missing": 242,
+  "welch_top": [
+    {
+      "Code": "hemo",
+      "t-statistic": -24.356516202151585,
+      "p-value": 3.607617872019318e-76
+    },
+    {
+      "Code": "sg",
+      "t-statistic": -22.21267696193983,
+      "p-value": 1.0389245645315623e-67
+    },
+    {
+      "Code": "pcv",
+      "t-statistic": -21.152449573301013,
+      "p-value": 2.3074341159249012e-61
+    },
+    {
+      "Code": "al",
+      "t-statistic": 18.141408698791782,
+      "p-value": 9.986199774818621e-45
+    },
+    {
+      "Code": "rc",
+      "t-statistic": -15.618593073216216,
+      "p-value": 2.1268793050704108e-37
+    }
+  ],
+  "chisq_top": [
+    {
+      "Code": "htn",
+      "Chi-square": 135.47742554474144,
+      "Fisher p": 1.0541667802468282e-40,
+      "Odds ratio": 423.2608695652174
+    },
+    {
+      "Code": "dm",
+      "Chi-square": 121.26009705300567,
+      "Fisher p": 4.683714075371837e-37,
+      "Odds ratio": 359.80176211453744
+    },
+    {
+      "Code": "rbc",
+      "Chi-square": 73.58382902751774,
+      "Fisher p": 4.499222953803933e-21,
+      "Odds ratio": 222.1900826446281
+    },
+    {
+      "Code": "pc",
+      "Chi-square": 69.22963191265083,
+      "Fisher p": 5.466222282212495e-22,
+      "Odds ratio": 182.69620253164558
+    },
+    {
+      "Code": "appet",
+      "Chi-square": 59.521523612057095,
+      "Fisher p": 7.34732534078409e-20,
+      "Odds ratio": 146.3946587537092
+    }
+  ],
+  "max_abs_r": {
+    "Feature 1": "Haemoglobin (g/dL)",
+    "Feature 2": "Packed cell volume (%)",
+    "Pearson r": 0.8953817669928064,
+    "n pairs": 327
+  },
+  "vif_top": [
+    {
+      "Code": "hemo",
+      "VIF": 4.479357828429169
+    },
+    {
+      "Code": "pcv",
+      "VIF": 4.319875253478726
+    },
+    {
+      "Code": "sc",
+      "VIF": 2.446559998662815
+    },
+    {
+      "Code": "bu",
+      "VIF": 2.392677298160464
+    },
+    {
+      "Code": "htn",
+      "VIF": 2.3834938856561982
+    }
+  ],
+  "pca_cum2": 0.36924102834306904,
+  "pca_cum6": 0.5913892405497312
+}
